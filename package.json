@@ -2,7 +2,7 @@
   "name": "listify",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8000",
+  "proxy": "http://143.198.159.10/Listify-backend/public/",
   "dependencies": {
     "antd": "^5.22.7",
     "axios": "^1.7.9",
