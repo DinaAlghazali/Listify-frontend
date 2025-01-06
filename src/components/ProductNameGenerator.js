@@ -29,7 +29,7 @@ function ProductNameGenerator() {
 
     try {
 
-      const response = await axios.post("/api/chat", {
+      const response = await axios.post("http://143.198.159.10/Listify-backend/public/api/chat", {
         brand_name: values.brandName,
         product_name: values.productType,
         dimensions: dimensions.trim() === "0cm x 0cm x 0cm (0g)" ? null : dimensions,
